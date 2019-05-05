@@ -9,7 +9,8 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #646360;
+
 }
 /* Link Styles */
 
@@ -25,7 +26,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #646360;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -52,12 +53,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #E0838A
 }
 
 header {
   text-align: center;
-  background: url('images/london.png') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,16 +78,17 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background: #646360;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background: #646360;
+  
+  color: white;
 }
 .card {
   margin: 30px;
