@@ -105,6 +105,12 @@ header .profile-image:hover {
   border-color:#E0838A ;
 }
 
+
+.linkedin-link {
+  color:#1C7BE3;
+}
+
+
 ul.skills {
   padding: 0;
   text-align: center;
