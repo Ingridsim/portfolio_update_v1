@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #CFCDCE;
+  color: white;
+  background: #F9F9F1;
 
 }
 /* Link Styles */
@@ -26,7 +26,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #CFCDCE;
+  background: #5A5956;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -44,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: grey;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -53,12 +53,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: #E0838A
+  color: white;
 }
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: url('images/desk-laptop.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -78,7 +78,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background: #E0838A;
+  background: #9C968B;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -86,7 +86,7 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background: #E0838A;
+  background: #9C968B;
   
   color: white;
 }
@@ -95,7 +95,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #9C968B;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -113,7 +113,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #E0838A;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -132,6 +132,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: black;
 }
 
 footer ul {
@@ -154,9 +155,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
