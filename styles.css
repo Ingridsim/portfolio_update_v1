@@ -114,6 +114,7 @@ header .profile-image:hover {
 ul.skills {
   padding: 0;
   text-align: center;
+
 }
 
 .skills li {
@@ -123,8 +124,15 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+
+}
+.skills li:hover{
+  animation: shake 0.5s;
 }
 
+@keyframes shake {
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+}
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
