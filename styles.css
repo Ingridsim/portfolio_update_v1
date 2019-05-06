@@ -75,13 +75,13 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background: #9C968B;
   color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   display: table;
   margin: 10px auto;
 } 
@@ -151,6 +151,9 @@ footer ul li {
   display: inline-block;
 }
 
+.job-title{
+  color: #1C7BE3;
+}
 a.social {
   display: inline-block;
   text-indent: -9999px;
